@@ -4,41 +4,62 @@ const projects = [
     title: "AI Earnings Reader",
     year: "2026",
     status: "building",
-    statusLabel: "In Progress",
-    category: "AI Product",
+    statusLabel: "Building",
+    category: "Product",
     visualTone: "cool",
-    visualLabel: "Financial AI",
+    visualLabel: "Finance",
     summary:
-      "A product-style financial reading platform that helps users discover companies, import public filings, and read clearer earnings briefs instead of raw disclosure text.",
-    tags: ["FastAPI", "Product Design", "Financial Data", "SEC Workflow"],
+      "A financial reading product that helps users discover companies, fetch public filings, and read cleaner summaries instead of dense raw disclosures.",
+    tags: ["FastAPI", "Next.js", "Financial Data", "UX"],
     links: {
-      primary: { label: "Live Demo Soon", href: "#" },
-      secondary: { label: "Repository Soon", href: "#" }
+      primary: { label: "View Repo", href: "https://github.com/GAcamellia/ai-earnings-reader" },
+      secondary: { label: "Live Demo Later", href: "#" }
     },
     notes: [
-      "Built around discovery, workflow, company context, and reader-view layers.",
-      "Designed for a future public launch instead of an internal tools interface."
+      "Focused on making earnings material easier to approach for regular users, not just finance professionals.",
+      "Still evolving toward a more public-facing product experience and clearer reading workflow."
     ]
   },
   {
-    id: "next-project-placeholder",
-    title: "Next Project",
-    year: "TBD",
+    id: "ai-stock-analyzer",
+    title: "AI Stock Analyzer",
+    year: "2026",
     status: "building",
-    statusLabel: "Add Next",
-    category: "Next Build",
-    visualTone: "warm",
-    visualLabel: "Portfolio Slot",
+    statusLabel: "Building",
+    category: "Web App",
+    visualTone: "cool",
+    visualLabel: "Research",
     summary:
-      "A placeholder slot for your next project. Replace this with a real app, dashboard, research tool, or another product you want to showcase publicly.",
-    tags: ["Template", "Portfolio", "GitHub Pages"],
+      "A stock research tool for retail investors with single-name analysis, stock comparison, ETF research, and lightweight backtesting workflows.",
+    tags: ["Next.js", "Python", "Yahoo Finance", "Charts"],
     links: {
-      primary: { label: "Add Demo Link", href: "#" },
-      secondary: { label: "Add Repo Link", href: "#" }
+      primary: { label: "View Repo", href: "https://github.com/GAcamellia/ai-stock-analyzer" },
+      secondary: { label: "Live Demo Later", href: "#" }
     },
     notes: [
-      "Keep the title short and outcome-focused.",
-      "Add a public link as soon as the project is ready to share."
+      "Built around practical research tasks such as comparison, valuation checks, ETF review, and simple strategy tests.",
+      "Designed to be readable and exploratory instead of feeling like a spreadsheet dump."
+    ]
+  },
+  {
+    id: "desktop-pet-platform",
+    title: "Desktop Pet Platform",
+    year: "2026",
+    status: "building",
+    statusLabel: "Building",
+    category: "Desktop App",
+    visualTone: "warm",
+    visualLabel: "Interactive",
+    summary:
+      "An Electron-based desktop pet platform with custom pet creation, state-driven behavior, dialogue systems, and marketplace-style pet pack management.",
+    tags: ["Electron", "React", "TypeScript", "Animation"],
+    links: {
+      primary: { label: "View Repo", href: "https://github.com/GAcamellia/desktop-pet-platform" },
+      secondary: { label: "Preview Build Later", href: "#" }
+    },
+    notes: [
+      "Explores character interaction, desktop presence, and playful tool design in a more visual product format.",
+      "Includes pet creation, emotion systems, dialogue, import and export, and local marketplace features."
     ]
   }
 ];

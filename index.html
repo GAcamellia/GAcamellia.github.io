@@ -3,44 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Portfolio</title>
-  <meta name="description" content="A clean portfolio hub for product, AI, and engineering projects." />
+  <title>GAcamellia | Portfolio</title>
+  <meta name="description" content="Selected product, AI, and engineering work by GAcamellia." />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <main class="page">
-    <section class="hero">
-      <div class="eyebrow">Portfolio</div>
-      <h1>One link for all of your projects.</h1>
-      <p class="hero-copy">
-        This page is designed for resume links, recruiter sharing, and simple project navigation.
-        Keep the best work visible, give each project a clear summary, and send people to the right demo or repository.
-      </p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="#projects">View Projects</a>
-        <a class="button button-secondary" href="#about">About This Page</a>
+    <header class="topbar">
+      <div class="brand-block">
+        <div class="brand-mark">GC</div>
+        <div>
+          <div class="eyebrow">Portfolio</div>
+          <div class="brand-name">GAcamellia</div>
+        </div>
       </div>
+      <nav class="top-links">
+        <a class="top-link" href="#work">Work</a>
+        <a class="top-link" href="#about">About</a>
+        <a class="top-link" href="https://github.com/GAcamellia" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Selected work</div>
+        <h1>Product-minded projects with clearer interfaces and stronger usability.</h1>
+        <p class="hero-text">
+          A single portfolio link for resumes, applications, and recruiter sharing.
+          This page is designed to make the best work easy to scan, easy to open, and easy to remember.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Open Projects</a>
+          <a class="button button-secondary" href="#about">Portfolio Notes</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel">
+        <div class="panel-kicker">Current focus</div>
+        <div class="panel-title">AI Earnings Reader</div>
+        <p class="panel-copy">
+          Building a cleaner financial reading product that helps users discover companies,
+          fetch filings, and read structured briefs instead of raw disclosure text.
+        </p>
+        <div class="panel-metrics">
+          <div class="metric">
+            <label>Mode</label>
+            <strong>Building</strong>
+          </div>
+          <div class="metric">
+            <label>Type</label>
+            <strong>AI Product</strong>
+          </div>
+          <div class="metric">
+            <label>Goal</label>
+            <strong>Public launch</strong>
+          </div>
+        </div>
+      </aside>
     </section>
 
-    <section class="signal-grid">
-      <article class="signal-card">
+    <section class="value-strip">
+      <article class="value-card">
         <div class="eyebrow">Resume ready</div>
-        <strong>One public link</strong>
-        <p>Use this as the single portfolio URL in your resume, LinkedIn, or job application forms.</p>
+        <strong>One clean public link</strong>
+        <p>Use this page as your single portfolio URL in resumes, applications, and outreach.</p>
       </article>
-      <article class="signal-card">
-        <div class="eyebrow">Free hosting</div>
-        <strong>GitHub Pages friendly</strong>
-        <p>This site is static HTML, CSS, and JavaScript, so it can be hosted for free on GitHub Pages.</p>
+      <article class="value-card">
+        <div class="eyebrow">Free setup</div>
+        <strong>Hosted on GitHub Pages</strong>
+        <p>Static files keep the setup lightweight, free, and easy to maintain over time.</p>
       </article>
-      <article class="signal-card">
-        <div class="eyebrow">Easy to grow</div>
-        <strong>Add projects later</strong>
-        <p>New projects can be added by editing one data file instead of rebuilding the whole page structure.</p>
+      <article class="value-card">
+        <div class="eyebrow">Built to grow</div>
+        <strong>Add work without redesigning</strong>
+        <p>Each new project can be added through one simple data file instead of rebuilding the whole site.</p>
       </article>
     </section>
 
-    <section id="projects" class="section">
+    <section id="work" class="section">
       <div class="section-head">
         <div>
           <div class="eyebrow">Projects</div>
@@ -54,28 +94,28 @@
     <section id="about" class="section muted-panel">
       <div class="section-head">
         <div>
-          <div class="eyebrow">How to use</div>
+          <div class="eyebrow">About this page</div>
           <h2>Portfolio Notes</h2>
         </div>
       </div>
       <div class="notes-grid">
         <article class="note-card">
-          <h3>For resume links</h3>
-          <p>Put this page URL into your resume so employers can see all projects from one clean entry point.</p>
+          <h3>For applications</h3>
+          <p>Use this page when a form asks for a portfolio, project site, or work sample link.</p>
         </article>
         <article class="note-card">
           <h3>For live demos</h3>
-          <p>Each project card can point to a public demo, a GitHub repository, or both.</p>
+          <p>Each project card can link to a public product demo, a GitHub repository, or both.</p>
         </article>
         <article class="note-card">
-          <h3>For future projects</h3>
-          <p>Edit <code>projects.js</code> to add new work, change links, and update launch status.</p>
+          <h3>For future updates</h3>
+          <p>Edit <code>projects.js</code> to update titles, links, descriptions, and launch status.</p>
         </article>
       </div>
     </section>
 
     <footer class="footer">
-      <div>Built as a lightweight portfolio hub for free hosting.</div>
+      <div class="footer-copy">Designed as a lightweight public portfolio for product, AI, and engineering work.</div>
       <div class="footer-links">
         <a href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages</a>
         <a href="./README.md">Setup Notes</a>

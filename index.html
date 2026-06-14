@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Portfolio</title>
+  <meta name="description" content="A clean portfolio hub for product, AI, and engineering projects." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">Portfolio</div>
+      <h1>One link for all of your projects.</h1>
+      <p class="hero-copy">
+        This page is designed for resume links, recruiter sharing, and simple project navigation.
+        Keep the best work visible, give each project a clear summary, and send people to the right demo or repository.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">View Projects</a>
+        <a class="button button-secondary" href="#about">About This Page</a>
+      </div>
+    </section>
+
+    <section class="signal-grid">
+      <article class="signal-card">
+        <div class="eyebrow">Resume ready</div>
+        <strong>One public link</strong>
+        <p>Use this as the single portfolio URL in your resume, LinkedIn, or job application forms.</p>
+      </article>
+      <article class="signal-card">
+        <div class="eyebrow">Free hosting</div>
+        <strong>GitHub Pages friendly</strong>
+        <p>This site is static HTML, CSS, and JavaScript, so it can be hosted for free on GitHub Pages.</p>
+      </article>
+      <article class="signal-card">
+        <div class="eyebrow">Easy to grow</div>
+        <strong>Add projects later</strong>
+        <p>New projects can be added by editing one data file instead of rebuilding the whole page structure.</p>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Projects</div>
+          <h2>Selected Work</h2>
+        </div>
+        <div class="filter-row" id="filterRow"></div>
+      </div>
+      <div id="projectGrid" class="project-grid"></div>
+    </section>
+
+    <section id="about" class="section muted-panel">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">How to use</div>
+          <h2>Portfolio Notes</h2>
+        </div>
+      </div>
+      <div class="notes-grid">
+        <article class="note-card">
+          <h3>For resume links</h3>
+          <p>Put this page URL into your resume so employers can see all projects from one clean entry point.</p>
+        </article>
+        <article class="note-card">
+          <h3>For live demos</h3>
+          <p>Each project card can point to a public demo, a GitHub repository, or both.</p>
+        </article>
+        <article class="note-card">
+          <h3>For future projects</h3>
+          <p>Edit <code>projects.js</code> to add new work, change links, and update launch status.</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>Built as a lightweight portfolio hub for free hosting.</div>
+      <div class="footer-links">
+        <a href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages</a>
+        <a href="./README.md">Setup Notes</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./projects.js"></script>
+</body>
+</html>
